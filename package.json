@@ -1,0 +1,44 @@
+{
+  "name": "eleventy-plugin-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Add the Asyntai AI chat assistant to your Eleventy (11ty) site. It answers visitor questions from your own content, in 80+ languages.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eleventy-plugin",
+    "eleventy",
+    "11ty",
+    "chatbot",
+    "ai",
+    "chat",
+    "live-chat",
+    "support",
+    "customer-support",
+    "asyntai"
+  ],
+  "homepage": "https://asyntai.com/documentation/integrations/eleventy/",
+  "bugs": {
+    "url": "https://github.com/asyntai/eleventy-plugin-ai-chatbot/issues",
+    "email": "hello@asyntai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyntai/eleventy-plugin-ai-chatbot.git"
+  },
+  "author": "Asyntai <hello@asyntai.com> (https://asyntai.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "test": "node tests/test_plugin.js"
+  },
+  "11ty": {
+    "compatibility": ">=1.0"
+  }
+}
